@@ -1,7 +1,7 @@
-export default {
+module.exports = {
   roots: ['<rootDir>/src'],
   collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
-  collectCoverage: true,
+  // collectCoverage: true,
   coverageDirectory: 'coverage',
   testEnvironment: 'node',
   transform: {
