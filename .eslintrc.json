@@ -12,6 +12,10 @@
         "@typescript-eslint/no-misused-promises": "off",
         "@typescript-eslint/no-namespace": "off",
         "@typescript-eslint/no-floating-promises": "off",
-        "import/export": "off"
-    }
+        "import/export": "off",
+        "quotes": ["error",  "single"],
+        "ident": ["error", 2],
+        "no-multi-spaces": ["error", { "ignoreEOLComments": true }],
+    },
+    
 }
