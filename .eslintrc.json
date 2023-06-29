@@ -14,8 +14,9 @@
         "@typescript-eslint/no-floating-promises": "off",
         "import/export": "off",
         "quotes": ["error",  "single"],
-        "ident": ["error", 2],
-        "no-multi-spaces": ["error", { "ignoreEOLComments": true }],
-    },
+        "indent": ["error", 2],
+        "keyword-spacing": 2,
+        "no-multi-spaces": ["error", { "ignoreEOLComments": true }]
+    }
     
 }
